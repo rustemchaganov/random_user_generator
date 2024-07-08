@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(/images/face-gen.jpg);
+    background-size: cover;
+    margin: 100px;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #bbbaba;
+    padding: 10px;
+    border: #333;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.card-body {
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.card-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.buttons-init {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
