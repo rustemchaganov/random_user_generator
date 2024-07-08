@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url(/images/face-gen.jpg);
+    background-image: url(images/face-gen.jpg);
     background-size: cover;
     margin: 100px;
     text-align: center;
@@ -28,14 +28,13 @@ body {
 
 .card-body {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 40px;
 }
 
-.card-title {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
+.card-body span {
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .buttons-init {
